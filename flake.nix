@@ -16,7 +16,12 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        devShells.default = pkgs.mkShell { nativeBuildInputs = with pkgs; [ nodePackages.pnpm ]; };
+        devShells.default = pkgs.mkShell {
+          nativeBuildInputs = with pkgs; [
+            nodejs
+            nodePackages.pnpm
+          ];
+        };
       }
     );
 }

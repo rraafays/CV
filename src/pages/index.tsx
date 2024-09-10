@@ -1,8 +1,14 @@
 import React from "react";
+import "@fontsource/iosevka-curly";
 
 const App: React.FC = () => {
   return (
-    <div style={{ margin: "40px" }}>
+    <div
+      style={{
+        fontFamily: "Iosevka Term Curly",
+        margin: "40px",
+      }}
+    >
       <div>
         <h1>Abdul Raafay Shahid</h1>
         <p>
@@ -12,15 +18,14 @@ const App: React.FC = () => {
       </div>
       <div
         style={{
-          fontFamily: "Arial, sans-serif",
           margin: "20px",
           display: "flex",
         }}
       >
         {/* Left Column */}
-        <div style={{ width: "35%", paddingRight: "20px" }}>
+        <div style={{ width: "35%", paddingRight: "20px", fontSize: "16px" }}>
           <section style={{ marginBottom: "20px" }}>
-            <h2>Links</h2>
+            <h2 style={{ fontSize: "16px" }}>Links</h2>
             <ul>
               <li>
                 <a href="https://raafay.world/projects">
@@ -34,22 +39,23 @@ const App: React.FC = () => {
           </section>
 
           <section style={{ marginBottom: "20px" }}>
-            <h2>Proficiency</h2>
+            <h2 style={{ fontSize: "16px" }}>Technologies</h2>
             <ul>
-              <li>Python 1000</li>
-              <li>C# 0100</li>
-              <li>Java 0100</li>
-              <li>NextJS 0010</li>
-              <li>React Native 0010</li>
-              <li>C 0100</li>
-              <li>C 0001</li>
+              <li>Rust</li>
+              <li>Java</li>
+              <li>C#</li>
+              <li>Typescript</li>
+              <li>Javasript</li>
+              <li>Python</li>
+              <li>C</li>
+              <li>C++</li>
             </ul>
           </section>
 
           <section style={{ marginBottom: "20px" }}>
-            <h2>Languages</h2>
+            <h2 style={{ fontSize: "16px" }}>Languages</h2>
             <ul>
-              <li>English: Fluent</li>
+              <li>English: Native</li>
               <li>Spanish: Intermediate</li>
               <li>Urdu: Beginner</li>
               <li>Punjabi: Beginner</li>
@@ -57,49 +63,47 @@ const App: React.FC = () => {
           </section>
 
           <section style={{ marginBottom: "20px" }}>
-            <h2>Passions</h2>
+            <h2 style={{ fontSize: "16px" }}>Passions</h2>
             <p>
-              Cooking, Cars, Device Restoration, Painting, Drawing, Motor
-              Mechanics, Electrical Engineering.
+              Martial Arts, Muay Thai, Cooking, Painting, Technology
+              Restoration, Motor Mechanics, Digital Minimalism
             </p>
           </section>
 
           <section style={{ marginBottom: "20px" }}>
-            <h2>Education</h2>
+            <h2 style={{ fontSize: "16px" }}>Education</h2>
             <p>
-              <b>BEng Software Engineering</b>
+              BEng Software Engineering
               <br />
-              Sheffield Hallam University
+              <b>Sheffield Hallam University</b>
               <br />
-              <b>2020 - present</b>
+              2020 - present
               <br /> <br />
             </p>
             <p>
-              <b>A-Level Computer Science (C), Maths (C), Economics (D)</b>
+              A-Level Computer Science (C), Maths (C), Economics (D)
               <br />
-              Notre Dame Catholic Sixth Form College
+              <b>Notre Dame Catholic Sixth Form College</b>
               <br />
-              <b>2018 - 2020</b>
+              2018 - 2020
               <br /> <br />
             </p>
             <p>
-              <b>
-                GCSE Computer Science (A*), Maths (7), English (6 5), Combined
-                Science (6 5), Geography (6), Spanish (5), IT (B)
-              </b>
+              GCSE Computer Science (A*), Maths (7), English (6 5), Combined
+              Science (6 5), Geography (6), Spanish (5), IT (B)
               <br />
-              Allerton High School
+              <b>Allerton High School</b>
               <br />
-              <b>2013 - 2018</b>
+              2013 - 2018
               <br /> <br />
             </p>
           </section>
         </div>
 
         {/* Right Column */}
-        <div style={{ width: "65%" }}>
+        <div style={{ width: "65%", fontSize: "16px" }}>
           <section style={{ marginBottom: "20px" }}>
-            <h2>About</h2>
+            <h2 style={{ fontSize: "16px" }}>About</h2>
             <p>
               Raafay is currently studying Software Engineering at Sheffield
               Hallam University. He is currently looking for a year in industry
@@ -130,7 +134,7 @@ const App: React.FC = () => {
           </section>
 
           <section style={{ marginBottom: "20px" }}>
-            <h2>Notable Projects</h2>
+            <h2 style={{ fontSize: "16px" }}>Notable Projects</h2>
             <ul>
               <li>Intel 8080 Emulator | April 2017</li>
               <li>Uber-Inspired Taxi Application | February 2020</li>
@@ -143,10 +147,22 @@ const App: React.FC = () => {
           </section>
 
           <section>
-            <h2>Work Experience</h2>
-            <p>Pizza Chef, Ecco Pizzeria, August 2022 - February 2023</p>
-            <p>Voluntary Technician, AALFY, August 2021 - December 2022</p>
-            <p>Front of House, Friesday, August 2021 - July 2022</p>
+            <h2 style={{ fontSize: "16px" }}>Work Experience</h2>
+            <b>Placement Software Engineer: Cognitran Limited</b>
+            <br />
+            August 2023 - August 2024
+            <br />
+            <b>Pizza Chef: Ecco Pizzeria</b>
+            <br />
+            August 2022 - February 2023
+            <br />
+            <b>Voluntary Technician: AALFY</b>
+            <br />
+            August 2021 - December 2022
+            <br />
+            <b>Front of House: Friesday</b>
+            <br />
+            August 2021 - July 2022
           </section>
         </div>
       </div>

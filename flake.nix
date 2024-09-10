@@ -1,8 +1,10 @@
 {
   description = "cv node package";
 
-  inputs.flake-utils.url = "github:numtide/flake-utils";
-  inputs.nixpkgs.url = "github:NixOs/nixpkgs";
+  inputs = {
+    flake-utils.url = "github:numtide/flake-utils";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+  };
 
   outputs =
     {

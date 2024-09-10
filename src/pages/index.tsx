@@ -23,10 +23,10 @@ const App: React.FC = () => {
         }}
       >
         {/* Left Column */}
-        <div style={{ width: "35%", paddingRight: "20px", fontSize: "16px" }}>
+        <div style={{ width: "35%", paddingRight: "20px", fontSize: "14px" }}>
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Links</h2>
-            <ul>
+            <ul style={{ listStyleType: "none" }}>
               <li>
                 <a href="https://raafay.world/projects">
                   raafay.world/projects
@@ -40,7 +40,7 @@ const App: React.FC = () => {
 
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Technologies</h2>
-            <ul>
+            <ul style={{ listStyleType: "none" }}>
               <li>Rust</li>
               <li>Java</li>
               <li>C#</li>
@@ -54,7 +54,7 @@ const App: React.FC = () => {
 
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Languages</h2>
-            <ul>
+            <ul style={{ listStyleType: "none" }}>
               <li>English: Native</li>
               <li>Spanish: Intermediate</li>
               <li>Urdu: Beginner</li>
@@ -105,44 +105,50 @@ const App: React.FC = () => {
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>About</h2>
             <p>
-              Raafay is currently studying Software Engineering at Sheffield
-              Hallam University. He is currently looking for a year in industry
-              to supplement his university education.
+              Raafay "Raf" Shahid is a passionate and versatile software
+              engineer with a deep-rooted love for programming that began at the
+              age of 13. Raf is a confident and sociable individual with a
+              strong technical foundation and a broad range of interests.
               <br /> <br />
             </p>
             <p>
-              He has been studying software-based subjects for over 5 years;
-              initially pursuing Computer Science as an extracurricular interest
-              which eventually led on to formal education having studied
-              Computer Science at both GCSE and A-Level prior to starting his
-              Software Engineering degree.
-              <br /> <br />
-            </p>
-            <p>
-              Being naturally gifted when it comes to learning programming
-              languages, he taught himself C. This allowed him to apply his
-              skills and knowledge to develop, optimise and maintain his
-              personal Gentoo Linux system which heavily relies on knowledge of
-              core computing and the C programming language amongst other
-              compiled languages.
-              <br /> <br />
-            </p>
-            <p>
-              Raafay has an avid interest in free open-source software since he
-              started using UNIX operating systems.
+              Outside of software engineering, Raf has been practicing Muay Thai
+              for over a year, enjoys cooking both at home and professionally,
+              and has a long-standing passion for painting. He also restores
+              vintage and modern technology and is learning motor mechanics from
+              his father. Committed to digital minimalism, Raf ensures a
+              balanced and focused approach to both his personal and
+              professional life.
+              <br />
             </p>
           </section>
 
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Notable Projects</h2>
-            <ul>
-              <li>Intel 8080 Emulator | April 2017</li>
-              <li>Uber-Inspired Taxi Application | February 2020</li>
-              <li>Personal Website | June 2022</li>
-              <li>Pomodoro Timer | July 2022</li>
-              <li>Banking System | November 2022</li>
-              <li>Multi-Threaded Client-Server Chat | January 2023</li>
-              <li>Pomo | July 2023</li>
+            <ul style={{ listStyleType: "none" }}>
+              <b>FRMWRK: reproducible laptop system</b>
+              <br />
+              September 2024
+              <br />
+              <b>Doro: pomodoro timer written in rust</b>
+              <br />
+              July 2023
+              <br />
+              <b>Socks: multi-threaded socket based chat</b>
+              <br />
+              January 2023
+              <br />
+              <b>SHU Bank: small-scale online banking </b>
+              <br />
+              November 2022
+              <br />
+              <b>Personal Website: projects & passions showcase</b>
+              <br />
+              July 2022
+              <br />
+              <b>SHUber: Uber-inspired taxi application</b>
+              <br />
+              February 2020
             </ul>
           </section>
 
